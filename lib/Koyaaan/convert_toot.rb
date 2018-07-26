@@ -2,7 +2,7 @@ module Koyaaan
     class Random < Koyaaan::Convert
   
       def convert(input)
-        input.replace(@replaces.replace)
+        "#{@replaces.sample}\n #社会性フィルター"
       end
     end
   end
