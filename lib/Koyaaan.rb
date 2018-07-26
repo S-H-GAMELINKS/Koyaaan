@@ -1,4 +1,7 @@
 require "Koyaaan/version"
+require "Koyaaan/convert"
+require "Koyaaan/convert_random"
+require "Koyaaan/statuses_controller"
 
 module Koyaaan
   def self.setup(&proc)
